@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, MessageCircle } from "lucide-react";
+import gtpLogo from "@/assets/gtplogo.jpg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,16 +19,12 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">G</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-bold text-lg text-foreground leading-tight">
-                GR<span className="text-accent">O</span>UP TENPLUS
-              </span>
-              <span className="text-xs text-muted-foreground">Join the green side</span>
-            </div>
+          <a href="#home" className="flex items-center">
+            <img 
+              src={gtpLogo} 
+              alt="Group Tenplus - Join the green side" 
+              className="h-12 md:h-14 w-auto"
+            />
           </a>
 
           {/* Desktop Navigation */}
