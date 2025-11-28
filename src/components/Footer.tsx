@@ -38,7 +38,7 @@ const Footer = () => {
               Goa's first e-waste recycling company. Join the green side and make responsible waste disposal easy.
             </p>
             <a
-              href="https://wa.me/919373521448"
+              href="https://wa.me/917972949655"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#25D366] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#20BD5A] transition-colors"
@@ -92,13 +92,13 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://wa.me/919373521448"
+                  href="https://wa.me/917972949655"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-start gap-3 text-white/70 text-sm hover:text-accent transition-colors"
                 >
                   <MessageCircle className="w-4 h-4 mt-0.5 shrink-0" />
-                  <span>+91 93735 21448</span>
+                  <span>+91 79729 49655</span>
                 </a>
               </li>
               <li>

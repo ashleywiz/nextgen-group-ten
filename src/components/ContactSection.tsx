@@ -25,7 +25,7 @@ const ContactSection = () => {
     e.preventDefault();
     // Format message for WhatsApp
     const message = `Name: ${formData.name}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0AMessage: ${formData.message}`;
-    window.open(`https://wa.me/919373521448?text=${message}`, "_blank");
+    window.open(`https://wa.me/917972949655?text=${message}`, "_blank");
     toast({
       title: "Redirecting to WhatsApp",
       description: "Complete your message on WhatsApp to reach us.",
@@ -36,8 +36,8 @@ const ContactSection = () => {
     {
       icon: MessageCircle,
       label: "WhatsApp",
-      value: "+91 93735 21448",
-      href: "https://wa.me/919373521448",
+      value: "+91 79729 49655",
+      href: "https://wa.me/917972949655",
       highlight: true,
     },
     {
@@ -111,22 +111,18 @@ const ContactSection = () => {
               ))}
             </div>
 
-            {/* Map Placeholder */}
-            <div className="aspect-video rounded-xl bg-card border border-border flex items-center justify-center p-8">
-              <div className="text-center text-muted-foreground">
-                <MapPin className="w-12 h-12 mx-auto mb-3 text-primary" />
-                <p className="text-sm">
-                  [Embed: Google Maps showing Group Tenplus location at Saligao, Bardez, Goa]
-                </p>
-                <a
-                  href="https://maps.google.com/?q=Saligao,Goa"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary text-sm font-medium hover:underline mt-2 inline-block"
-                >
-                  Open in Google Maps →
-                </a>
-              </div>
+            {/* Google Maps Embed */}
+            <div className="aspect-video rounded-xl overflow-hidden border border-border">
+              <iframe
+                src="https://www.google.com/maps?q=Group+Tenplus,+Abreovaddo,+Saligao,+Bardez,+Goa+403511&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Group Tenplus Location"
+              />
             </div>
 
             {/* Download Section */}
