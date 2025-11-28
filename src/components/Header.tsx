@@ -52,7 +52,7 @@ const Header = () => {
               </Button>
             </a>
             <a
-              href="https://wa.me/919373521448"
+              href="https://wa.me/917972949655"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -93,7 +93,7 @@ const Header = () => {
               ))}
               <div className="flex gap-2 mt-2 px-4">
                 <a
-                  href="https://wa.me/919373521448"
+                  href="https://wa.me/917972949655"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1"

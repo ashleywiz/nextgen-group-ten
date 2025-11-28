@@ -42,7 +42,7 @@ const HeroSection = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
               <a
-                href="https://wa.me/919373521448"
+                href="https://wa.me/917972949655"
                 target="_blank"
                 rel="noopener noreferrer"
               >
