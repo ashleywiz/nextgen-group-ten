@@ -1,4 +1,5 @@
-import { Leaf, MessageCircle, Phone, Mail, MapPin } from "lucide-react";
+import { MessageCircle, Phone, Mail, MapPin } from "lucide-react";
+import gtpLogo from "@/assets/gtplogo.jpg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -24,15 +25,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-5">
-              <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
-                <Leaf className="w-5 h-5 text-white" />
-              </div>
-              <div>
-                <span className="font-bold text-lg">
-                  GR<span className="text-accent">O</span>UP TENPLUS
-                </span>
-              </div>
+            <div className="mb-5">
+              <img 
+                src={gtpLogo} 
+                alt="Group Tenplus - Join the green side" 
+                className="h-14 w-auto bg-white rounded-lg p-2"
+              />
             </div>
             <p className="text-white/70 text-sm mb-5">
               Goa's first e-waste recycling company. Join the green side and make responsible waste disposal easy.
