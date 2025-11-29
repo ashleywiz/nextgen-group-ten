@@ -1,19 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Phone, Mail, CheckCircle, Leaf } from "lucide-react";
-
 const HeroSection = () => {
-  const highlights = [
-    "First e-waste dismantling centre in Goa",
-    "Operating since 2010",
-    "GSPCB & GWMC registered",
-    "Zero landfill policy for e-waste",
-  ];
-
-  return (
-    <section
-      id="hero"
-      className="relative min-h-screen flex items-center pt-20 overflow-hidden"
-    >
+  const highlights = ["First e-waste dismantling centre in Goa", "Operating since 2010", "GSPCB & GWMC registered", "Zero landfill policy for e-waste"];
+  return <section id="hero" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Background Gradient */}
       <div className="absolute inset-0 eco-gradient" />
       
@@ -31,7 +20,12 @@ const HeroSection = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-              Group Tenplus – E-waste recycling in Goa
+              Group Tenplus
+Recycling Solutions from E-waste to Dry waste      
+         
+   
+ 
+ 
             </h1>
             
             <p className="text-2xl md:text-3xl font-semibold text-accent mb-6">
@@ -44,11 +38,7 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
-              <a
-                href="https://wa.me/917972949655"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://wa.me/917972949655" target="_blank" rel="noopener noreferrer">
                 <Button variant="whatsapp" size="xl" className="w-full sm:w-auto">
                   <MessageCircle className="w-5 h-5" />
                   WhatsApp for Pickup
@@ -70,15 +60,10 @@ const HeroSection = () => {
 
             {/* Highlights */}
             <div className="grid sm:grid-cols-2 gap-3">
-              {highlights.map((item, index) => (
-                <div
-                  key={index}
-                  className="flex items-start gap-2 text-sm text-primary-foreground/80"
-                >
+              {highlights.map((item, index) => <div key={index} className="flex items-start gap-2 text-sm text-primary-foreground/80">
                   <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                   <span>{item}</span>
-                </div>
-              ))}
+                </div>)}
             </div>
           </div>
 
@@ -104,8 +89,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
