@@ -31,14 +31,11 @@ const HowItWorksSection = () => {
       <div className="container mx-auto">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-accent font-semibold text-sm uppercase tracking-wider">
-            How Pickup Works
-          </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-3 mb-6">
-            Simple Steps to Schedule Your Pickup
+            How Pickup Works
           </h2>
           <p className="text-muted-foreground text-lg">
-            We use WhatsApp to keep the process simple for you and efficient for our routing.
+            We use WhatsApp to keep the e-waste pickup process simple for you and efficient for our routing.
           </p>
         </div>
 
@@ -80,7 +77,7 @@ const HowItWorksSection = () => {
           </p>
 
           <a
-            href="https://wa.me/919373521448?text=Hi,%20I%20want%20to%20schedule%20a%20waste%20pickup"
+            href="https://wa.me/917972949655?text=Hi,%20I%20want%20to%20schedule%20a%20waste%20pickup"
             target="_blank"
             rel="noopener noreferrer"
           >

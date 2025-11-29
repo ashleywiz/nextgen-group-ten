@@ -1,4 +1,4 @@
-import { Target, Eye, Users, Building2, Home, Store } from "lucide-react";
+import { Building2, Home, Store } from "lucide-react";
 
 const AboutSection = () => {
   return (
@@ -6,11 +6,8 @@ const AboutSection = () => {
       <div className="container mx-auto">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-accent font-semibold text-sm uppercase tracking-wider">
-            Who We Are
-          </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-3 mb-6">
-            Pioneers in Responsible Waste Management
+            Who We Are
           </h2>
           <p className="text-muted-foreground text-lg">
             You handle your work. We handle your waste, from pickup to final processing.
@@ -18,7 +15,7 @@ const AboutSection = () => {
         </div>
 
         {/* About Content */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image Placeholder */}
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl bg-secondary flex items-center justify-center p-8 eco-shadow-md">
@@ -27,7 +24,7 @@ const AboutSection = () => {
                   <Building2 className="w-12 h-12 text-primary" />
                 </div>
                 <p className="text-sm">
-                  [Image: Group Tenplus facility exterior showing e-waste collection center in Goa with organized recycling bins and signage]
+                  [Image: Group Tenplus e-waste centre in Saligao Goa showing organized recycling facility]
                 </p>
               </div>
             </div>
@@ -41,10 +38,10 @@ const AboutSection = () => {
           {/* Text Content */}
           <div>
             <p className="text-foreground text-lg mb-6">
-              Group Tenplus started with a simple need in Goa. There was no organised way to dismantle and handle e-waste safely. We built the first local e-waste dismantling centre in the state and kept it running over the years as electronics use exploded.
+              Group Tenplus started as the first formal e-waste dismantling centre in Goa and has remained the longest running e-waste facility in the state. There was no organised way to dismantle and handle e-waste safely when we began. We built the first local e-waste dismantling centre in the state and kept it running over the years as electronics use exploded.
             </p>
             <p className="text-muted-foreground mb-8">
-              Today, e-waste is our main business. We work with homes, offices, corporates, IT departments, shops, and institutions across Goa. Our focus stays the same for every client: safe handling, clear communication, and full traceability for your e-waste.
+              Today, e-waste recycling in Goa is our main business. We work with homes, offices, corporates, IT departments, shops, and institutions across Goa. Our focus stays the same for every client: safe handling, clear communication, and full traceability for your e-waste. We also provide waste management services including dry waste collection, scrap removal, and demolition waste disposal in Goa.
             </p>
 
             {/* Client Types */}
@@ -62,29 +59,6 @@ const AboutSection = () => {
                 <span className="text-sm font-medium text-foreground">Corporates</span>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* Vision & Mission */}
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-card p-8 rounded-2xl eco-shadow-md border border-border hover:border-primary/30 transition-colors">
-            <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-5">
-              <Eye className="w-7 h-7 text-primary" />
-            </div>
-            <h3 className="text-xl font-bold text-foreground mb-3">Our Vision</h3>
-            <p className="text-muted-foreground">
-              To propagate ecological sustainability initiatives and help our clients give back to society and to nature.
-            </p>
-          </div>
-
-          <div className="bg-card p-8 rounded-2xl eco-shadow-md border border-border hover:border-primary/30 transition-colors">
-            <div className="w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center mb-5">
-              <Target className="w-7 h-7 text-accent" />
-            </div>
-            <h3 className="text-xl font-bold text-foreground mb-3">Our Mission</h3>
-            <p className="text-muted-foreground">
-              To be the best in providing environmentally sound solutions and recycling to the society.
-            </p>
           </div>
         </div>
       </div>

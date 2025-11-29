@@ -5,7 +5,7 @@ const ServicesSection = () => {
   const services = [
     {
       icon: Monitor,
-      title: "E-Waste Recycling",
+      title: "E-Waste Recycling and Dismantling",
       subtitle: "Primary Service",
       description:
         "We collect, dismantle, and channel electronic waste to authorised co-processing and recycling partners. None of the electronics given to us for recycling are processed for resale. Every device that can hold data is shredded. 100% of equipment is recycled and kept out of landfills.",
@@ -30,21 +30,21 @@ const ServicesSection = () => {
       icon: Package,
       title: "Dry Waste Collection",
       description:
-        "We collect sorted dry waste like paper, plastic, cardboard, packaging, and similar non-hazardous materials from homes, offices, and commercial spaces. Ideal if you want a regular or periodic clearance partner instead of ad-hoc junk runs.",
+        "We collect sorted dry waste like paper, plastic, cardboard, packaging, and similar non-hazardous materials from homes, offices, and commercial spaces. Ideal for dry waste collection in Goa if you want a regular or periodic clearance partner instead of ad-hoc junk runs.",
       idealFor: ["Homes", "Offices", "Shops"],
     },
     {
       icon: Wrench,
-      title: "Scrap & Bulk Junk Removal",
+      title: "Scrap and Bulk Junk Removal",
       description:
-        "We clear out metal scrap, old furniture, broken appliances, and renovation junk. Good for pre-renovation clearouts, store room cleanups, and office upgrades.",
+        "We clear out metal scrap, old furniture, broken appliances, and renovation junk. Professional scrap removal in Goa for pre-renovation clearouts, store room cleanups, and office upgrades.",
       idealFor: ["Renovators", "Home clear-outs", "Businesses"],
     },
     {
       icon: HardHat,
       title: "Demolition Waste Handling",
       description:
-        "We support contractors and civil projects with safe clearing of post-demolition debris. Our team coordinates with your site team so that concrete, bricks, and structural waste move out quickly and safely.",
+        "We support contractors and civil projects with safe clearing of post-demolition debris. Our demolition waste disposal in Goa coordinates with your site team so that concrete, bricks, and structural waste move out quickly and safely.",
       idealFor: ["Construction companies", "Contractors", "Civil projects"],
     },
   ];
@@ -54,14 +54,11 @@ const ServicesSection = () => {
       <div className="container mx-auto">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-accent font-semibold text-sm uppercase tracking-wider">
-            What We Do
-          </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-3 mb-6">
-            Our Services – Waste Management Simplified
+            What We Do
           </h2>
           <p className="text-muted-foreground text-lg">
-            E-waste stays at the core of what we do. Other waste streams support the same goal — a cleaner and safer Goa.
+            E-waste stays at the core of what we do. Other waste streams support the same goal — a cleaner and safer Goa through eco-friendly recycling.
           </p>
         </div>
 
@@ -74,7 +71,7 @@ const ServicesSection = () => {
                 Primary Service
               </div>
               <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-                E-Waste Recycling & Dismantling
+                E-Waste Recycling and Dismantling
               </h3>
               <p className="text-muted-foreground mb-6">
                 {services[0].description}
@@ -83,12 +80,12 @@ const ServicesSection = () => {
               {/* Image Placeholder */}
               <div className="aspect-video rounded-xl bg-secondary flex items-center justify-center p-6 mb-6">
                 <p className="text-sm text-muted-foreground text-center">
-                  [Image: E-waste collection process showing workers sorting computers, phones, and electronic equipment in organized facility]
+                  [Image: E-waste recycling team in Goa sorting computers, phones, and electronic equipment in organized facility]
                 </p>
               </div>
 
               <a
-                href="https://wa.me/919373521448?text=Hi,%20I%20want%20to%20schedule%20an%20e-waste%20pickup"
+                href="https://wa.me/917972949655?text=Hi,%20I%20want%20to%20schedule%20an%20e-waste%20pickup"
                 target="_blank"
                 rel="noopener noreferrer"
               >
