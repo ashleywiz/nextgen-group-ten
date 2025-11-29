@@ -20,8 +20,8 @@ const HeroSection = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-              Group Tenplus
-Recycling Solutions from E-waste to Dry waste      
+              Group Tenplus 
+- Recycling Solutions from E-waste to Dry waste      
          
    
  
