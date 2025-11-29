@@ -29,7 +29,7 @@ const HeroSection = () => {
             
             <p className="text-xl md:text-2xl font-semibold mb-6">
               <span className="text-black">Join the </span>
-              <span className="text-primary">green</span>
+              <span className="text-secondary-foreground">green</span>
               <span className="text-black"> side.</span>
             </p>
             
