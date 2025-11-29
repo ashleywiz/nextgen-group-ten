@@ -1,17 +1,17 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Phone, CheckCircle, Leaf } from "lucide-react";
+import { MessageCircle, Phone, Mail, CheckCircle, Leaf } from "lucide-react";
 
 const HeroSection = () => {
   const highlights = [
     "First e-waste dismantling centre in Goa",
     "Operating since 2010",
+    "GSPCB & GWMC registered",
     "Zero landfill policy for e-waste",
-    "Following ISO 14001 & OHSAS 18001 standards",
   ];
 
   return (
     <section
-      id="home"
+      id="hero"
       className="relative min-h-screen flex items-center pt-20 overflow-hidden"
     >
       {/* Background Gradient */}
@@ -30,13 +30,16 @@ const HeroSection = () => {
               <span className="text-sm font-medium">E-waste recycling in Goa</span>
             </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Join the{" "}
-              <span className="text-accent">green</span> side.
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
+              Group Tenplus – E-waste recycling in Goa
             </h1>
             
+            <p className="text-2xl md:text-3xl font-semibold text-accent mb-6">
+              Join the green side.
+            </p>
+            
             <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-xl">
-              Group Tenplus is Goa's first e-waste dismantling company and the longest running e-waste center in the state. We collect, dismantle, and channel e-waste into compliant recycling.
+              Group Tenplus is Goa's first e-waste dismantling company and the longest running e-waste center in the state. We handle e-waste, dry waste including metal and plastic scrap, and demolition waste for homes, offices, and businesses across Goa. We are GSPCB (Goa State Pollution Control Board) and GWMC (Goa Waste Management Corporation) registered.
             </p>
 
             {/* CTA Buttons */}
@@ -51,10 +54,16 @@ const HeroSection = () => {
                   WhatsApp for Pickup
                 </Button>
               </a>
-              <a href="tel:+919823118321">
+              <a href="tel:+919373521448">
                 <Button variant="hero-outline" size="xl" className="w-full sm:w-auto">
                   <Phone className="w-5 h-5" />
-                  +91 98231 18321
+                  Call Us
+                </Button>
+              </a>
+              <a href="mailto:info@grouptenplus.com">
+                <Button variant="hero-outline" size="xl" className="w-full sm:w-auto">
+                  <Mail className="w-5 h-5" />
+                  Email Us
                 </Button>
               </a>
             </div>
@@ -82,7 +91,7 @@ const HeroSection = () => {
                     <Leaf className="w-16 h-16" />
                   </div>
                   <p className="text-sm font-medium">
-                    [Hero Image: E-waste recycling team sorting electronics in Goa facility, green environment, professional workers with safety gear]
+                    [Hero Image: E-waste recycling team in Goa sorting electronics, green environment, professional workers with safety gear]
                   </p>
                 </div>
               </div>
