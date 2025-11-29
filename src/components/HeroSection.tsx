@@ -19,17 +19,18 @@ const HeroSection = () => {
               <span className="text-sm font-medium">E-waste recycling in Goa</span>
             </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-              Group Tenplus 
-- Recycling Solutions from E-waste to Dry waste      
-         
-   
- 
- 
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-2">
+              Group Tenplus
             </h1>
             
-            <p className="text-2xl md:text-3xl font-semibold mb-6 text-black">
-              Join the green side.
+            <p className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-4 text-primary-foreground">
+              Recycling Solutions from E-waste to Dry waste
+            </p>
+            
+            <p className="text-xl md:text-2xl font-semibold mb-6">
+              <span className="text-black">Join the </span>
+              <span className="text-primary">green</span>
+              <span className="text-black"> side.</span>
             </p>
             
             <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-xl">
