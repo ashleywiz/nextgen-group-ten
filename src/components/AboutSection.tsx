@@ -1,8 +1,6 @@
 import { Building2, Home, Store } from "lucide-react";
-
 const AboutSection = () => {
-  return (
-    <section id="about" className="py-20 md:py-28 bg-background">
+  return <section id="about" className="py-20 md:py-28 bg-background">
       <div className="container mx-auto">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -30,7 +28,7 @@ const AboutSection = () => {
             </div>
             {/* Stats Card */}
             <div className="absolute -bottom-6 -right-6 bg-card p-5 rounded-xl eco-shadow-lg">
-              <div className="text-3xl font-bold text-primary">14+</div>
+              <div className="text-3xl font-bold text-primary">15+</div>
               <div className="text-sm text-muted-foreground">Years of Service</div>
             </div>
           </div>
@@ -62,8 +60,6 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
