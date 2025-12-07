@@ -20,7 +20,7 @@ const Index = () => {
         <title>E-Waste Recycling in Goa | Group Tenplus</title>
         <meta
           name="description"
-          content="Group Tenplus is Goa's first e-waste recycler offering eco-conscious solutions for homes, offices, and businesses."
+          content="Group Tenplus is Goa's first and longest-running e-waste recycling and dismantling centre, offering eco-friendly pickup of electronics, dry waste, scrap, and demolition waste across Goa."
         />
         <meta
           name="keywords"
@@ -36,11 +36,11 @@ const Index = () => {
         />
         <meta
           property="og:description"
-          content="Group Tenplus is Goa's first e-waste recycler offering eco-conscious solutions for homes, offices, and businesses."
+          content="Book e-waste pickup anywhere in Goa. First and longest-running e-waste dismantling centre."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.grouptenplus.com" />
-        <meta property="og:image" content={gtpLogo} />
+        <meta property="og:image" content="https://www.grouptenplus.com/thumbnail.png" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -50,7 +50,11 @@ const Index = () => {
         />
         <meta
           name="twitter:description"
-          content="Group Tenplus is Goa's first e-waste recycler offering eco-conscious solutions for homes, offices, and businesses."
+          content="Eco-friendly e-waste recycling, scrap removal and dry waste collection across Goa."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.grouptenplus.com/thumbnail.png"
         />
 
         {/* Structured Data */}
@@ -59,44 +63,19 @@ const Index = () => {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Group Tenplus",
-            description:
-              "Goa's first e-waste dismantling company offering e-waste recycling, dry waste collection, scrap removal, and demolition waste handling.",
+            description: "E-waste recycling and waste management services across Goa.",
             url: "https://www.grouptenplus.com",
-            telephone: "+919373521448",
+            image: "https://www.grouptenplus.com/thumbnail.png",
+            telephone: "+91 79729 49655",
             email: "info@grouptenplus.com",
-            founder: {
-              "@type": "Person",
-              name: "Ashley Delaney",
-            },
             address: {
               "@type": "PostalAddress",
               streetAddress: "Beth-shalom, Abreovaddo",
-              addressLocality: "Saligao, Bardez",
+              addressLocality: "Saligao",
               addressRegion: "Goa",
               postalCode: "403511",
               addressCountry: "IN",
             },
-            geo: {
-              "@type": "GeoCoordinates",
-              latitude: "15.5447",
-              longitude: "73.7889",
-            },
-            openingHours: "Mo-Sa 09:00-18:00",
-            sameAs: [
-              "https://www.linkedin.com/company/877210/",
-              "https://www.facebook.com/ewastegoa/"
-            ],
-            priceRange: "$$",
-            areaServed: {
-              "@type": "State",
-              name: "Goa",
-            },
-            serviceType: [
-              "E-Waste Recycling",
-              "Dry Waste Collection",
-              "Scrap Removal",
-              "Demolition Waste Handling",
-            ],
           })}
         </script>
       </Helmet>

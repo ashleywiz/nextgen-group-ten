@@ -35,7 +35,7 @@ const HowItWorksSection = () => {
             How Pickup Works
           </h2>
           <p className="text-muted-foreground text-lg">
-            We use WhatsApp to keep the e-waste pickup process simple for you and efficient for our routing.
+            We use WhatsApp to keep the e-waste / scrap pickup process simple for you and efficient for our routing.
           </p>
         </div>
 

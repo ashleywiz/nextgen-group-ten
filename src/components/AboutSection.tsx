@@ -1,4 +1,6 @@
 import { Building2, Home, Store } from "lucide-react";
+import officeImg from "@/assets/officeGTP.png";
+
 const AboutSection = () => {
   return <section id="about" className="py-20 md:py-28 bg-background">
       <div className="container mx-auto">
@@ -14,17 +16,14 @@ const AboutSection = () => {
 
         {/* About Content */}
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Image Placeholder */}
+          {/* Office Image */}
           <div className="relative">
-            <div className="aspect-[4/3] rounded-2xl bg-secondary flex items-center justify-center p-8 eco-shadow-md">
-              <div className="text-center text-muted-foreground">
-                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
-                  <Building2 className="w-12 h-12 text-primary" />
-                </div>
-                <p className="text-sm">
-                  [Image: Group Tenplus e-waste centre in Saligao Goa showing organized recycling facility]
-                </p>
-              </div>
+            <div className="aspect-[4/3] rounded-2xl overflow-hidden eco-shadow-md">
+              <img 
+                src={officeImg} 
+                alt="Group Tenplus e-waste centre in Saligao Goa"
+                className="w-full h-full object-cover"
+              />
             </div>
             {/* Stats Card */}
             <div className="absolute -bottom-6 -right-6 bg-card p-5 rounded-xl eco-shadow-lg">
