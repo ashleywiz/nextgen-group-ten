@@ -1,4 +1,4 @@
-import { User } from "lucide-react";
+import ashleyImg from "@/assets/ashleysuit.png";
 
 const StorySection = () => {
   return (
@@ -11,20 +11,11 @@ const StorySection = () => {
           </h2>
         </div>
 
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <div className="bg-card rounded-2xl p-8 md:p-10 eco-shadow-lg border border-border">
-            <div className="grid md:grid-cols-3 gap-8 items-start">
-              {/* Founder Info */}
-              <div className="text-center md:text-left">
-                <div className="w-24 h-24 mx-auto md:mx-0 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <User className="w-12 h-12 text-primary" />
-                </div>
-                <h3 className="text-lg font-bold text-foreground">Ashley Delaney</h3>
-                <p className="text-sm text-muted-foreground">Founder & Proprietor</p>
-              </div>
-
+            <div className="grid md:grid-cols-2 gap-8 items-start">
               {/* Story Content */}
-              <div className="md:col-span-2 space-y-4">
+              <div className="space-y-4 order-2 md:order-1">
                 <p className="text-foreground text-lg">
                   Group Tenplus was founded by Ashley Delaney, who continues to run the company as proprietor and founding member.
                 </p>
@@ -37,6 +28,19 @@ const StorySection = () => {
                 <p className="text-muted-foreground">
                   Today, we serve homes, offices, corporates, IT departments, shops, and institutions across Goa with the same commitment to safe handling, clear communication, and full traceability that we started with.
                 </p>
+              </div>
+
+              {/* Founder Photo */}
+              <div className="order-1 md:order-2 text-center">
+                <div className="aspect-[3/4] max-w-xs mx-auto rounded-2xl overflow-hidden eco-shadow-md mb-4">
+                  <img 
+                    src={ashleyImg} 
+                    alt="Ashley Delaney - Founder and Proprietor of Group Tenplus"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-lg font-bold text-foreground">Ashley Delaney</h3>
+                <p className="text-sm text-muted-foreground">Founder & Proprietor, Group Tenplus</p>
               </div>
             </div>
           </div>
