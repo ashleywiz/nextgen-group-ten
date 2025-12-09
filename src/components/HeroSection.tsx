@@ -33,8 +33,12 @@ const HeroSection = () => {
               <span className="text-black"> side.</span>
             </p>
             
-            <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-xl">
-              Group Tenplus is Goa's first e-waste dismantling company and the longest running e-waste center in the state. We handle e-waste, dry waste including metal and plastic scrap, and demolition waste for homes, offices, and businesses across Goa. We are GSPCB (Goa State Pollution Control Board) and GWMC (Goa Waste Management Corporation) registered.
+            <p className="text-lg md:text-xl text-primary-foreground/90 mb-4 max-w-xl">
+              We are Goa's first and longest-running e-waste dismantling centre, registered with GSPCB and GWMC. We collect and dismantle e-waste, dry waste (including metal and plastic scrap) and demolition waste from homes and businesses across Goa. We believe waste is a resource, and every device, cable and waste material, can return to the circular economy when it is given for responsible recycling instead of being discarded.
+            </p>
+            
+            <p className="text-lg md:text-xl font-bold text-primary-foreground text-center mb-8 max-w-xl">
+              It's not waste until it's wasted.
             </p>
 
             {/* CTA Buttons */}
