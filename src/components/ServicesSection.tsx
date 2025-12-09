@@ -63,6 +63,9 @@ const ServicesSection = () => {
               <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
                 E-Waste Recycling and Dismantling
               </h3>
+              <p className="text-muted-foreground mb-4">
+                Anything that has a wire, plug or battery, that has stopped working, or is part of a waste manufacturing process, that you probably are never going to use again is E-waste.
+              </p>
               <p className="text-muted-foreground mb-6">
                 {services[0].description}
               </p>
