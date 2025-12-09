@@ -11,7 +11,7 @@ const ServicesSection = () => {
     title: "E-Waste Recycling and Dismantling",
     subtitle: "Primary Service",
     description: "We collect, dismantle, and channel electronic waste to authorised co-processing and recycling partners. None of the electronics given to us for recycling are processed for resale. Every device that can hold data is shredded. 100% of equipment is recycled and kept out of landfills.",
-    collects: ["Computers, laptops, tablets", "Servers, networking gear, routers", "Mobile phones and chargers", "Printers, scanners, fax machines", "TVs, monitors, cables", "Kitchen and home appliances", "Power tools, battery-operated devices"],
+    collects: ["Computers, laptops, tablets", "Servers, networking gear, routers", "Mobile phones and chargers", "Printers, scanners, fax machines", "TVs, monitors, cables", "Kitchen and home appliances", "Power tools, battery-operated devices", "AC's"],
     notCollects: ["CFL bulbs and tube lights", "Loose AA or AAA batteries", "Ink and toner cartridges", "CDs, DVDs, ribbon cartridges"],
     featured: true,
     image: ewasteRecyclingImg,
