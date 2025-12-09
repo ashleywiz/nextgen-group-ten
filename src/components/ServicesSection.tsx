@@ -48,7 +48,7 @@ const ServicesSection = () => {
             What We Do
           </h2>
           <p className="text-muted-foreground text-lg">
-            E-waste stays at the core of what we do. Other waste streams that we take also support the same goal of a cleaner and safer Goa, through eco-friendly recycling.
+            E-waste recycling stays at the core of what we do. Other waste streams we accept support the same goal — a cleaner and safer Goa through scientific, pollution-free resource recovery.
           </p>
         </div>
 

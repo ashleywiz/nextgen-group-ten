@@ -1,4 +1,4 @@
-import { Target, Eye } from "lucide-react";
+import { Target, Eye, Leaf } from "lucide-react";
 
 const VisionMissionSection = () => {
   return (
@@ -20,7 +20,10 @@ const VisionMissionSection = () => {
             <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-5">
               <Eye className="w-7 h-7 text-primary" />
             </div>
-            <h3 className="text-xl font-bold text-foreground mb-3">Our Vision</h3>
+            <h3 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2">
+              <Leaf className="w-5 h-5 text-primary" />
+              Our Vision
+            </h3>
             <p className="text-muted-foreground">
               To propagate ecological sustainability initiatives and help our clients give back to society and to nature.
             </p>
@@ -30,7 +33,10 @@ const VisionMissionSection = () => {
             <div className="w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center mb-5">
               <Target className="w-7 h-7 text-accent" />
             </div>
-            <h3 className="text-xl font-bold text-foreground mb-3">Our Mission</h3>
+            <h3 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2">
+              <Leaf className="w-5 h-5 text-primary" />
+              Our Mission
+            </h3>
             <p className="text-muted-foreground">
               To be the best in providing environmentally sound solutions and recycling to the society.
             </p>
