@@ -74,9 +74,9 @@ const StatsStrip = () => {
       icon: <Truck className="w-8 h-8 text-primary" />,
     },
     {
-      endValue: 15,
+      endValue: 350,
       suffix: "+",
-      subtitle: "Years of responsible e-waste work",
+      subtitle: "Tonnes of waste responsibly recycled",
       icon: <Award className="w-8 h-8 text-primary" />,
     },
   ];
@@ -95,6 +95,9 @@ const StatsStrip = () => {
             />
           ))}
         </div>
+        <p className="text-center text-muted-foreground text-lg mt-8 max-w-3xl mx-auto">
+          We ensure that every device, cable and material given to us, is recycled responsibly, to keep it out of landfills.
+        </p>
       </div>
     </section>
   );
