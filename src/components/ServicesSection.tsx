@@ -52,6 +52,43 @@ const ServicesSection = () => {
           </p>
         </div>
 
+        {/* Why Choose Us */}
+        <div className="bg-card rounded-2xl p-8 eco-shadow-md border border-border mb-10">
+          <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+            Why Choose Us
+          </h3>
+          <ul className="space-y-3">
+            <li className="flex items-center gap-3 text-muted-foreground">
+              <div className="w-2 h-2 rounded-full bg-primary" />
+              GSPCB & GWMC registered
+            </li>
+            <li className="flex items-center gap-3 text-muted-foreground">
+              <div className="w-2 h-2 rounded-full bg-primary" />
+              Goa's first e-waste dismantling centre
+            </li>
+            <li className="flex items-center gap-3 text-muted-foreground">
+              <div className="w-2 h-2 rounded-full bg-primary" />
+              Closed-body trucks for safe transport
+            </li>
+            <li className="flex items-center gap-3 text-muted-foreground">
+              <div className="w-2 h-2 rounded-full bg-primary" />
+              Complete data destruction before recycling
+            </li>
+            <li className="flex items-center gap-3 text-muted-foreground">
+              <div className="w-2 h-2 rounded-full bg-primary" />
+              Zero resale of electronics
+            </li>
+            <li className="flex items-center gap-3 text-muted-foreground">
+              <div className="w-2 h-2 rounded-full bg-primary" />
+              Ethical disposal of waste materials
+            </li>
+            <li className="flex items-center gap-3 text-muted-foreground">
+              <div className="w-2 h-2 rounded-full bg-primary" />
+              Zero burning
+            </li>
+          </ul>
+        </div>
+
         {/* Featured E-Waste Service */}
         <div className="bg-card rounded-3xl p-8 md:p-10 eco-shadow-lg border border-border mb-10">
           <div className="grid lg:grid-cols-2 gap-10">
