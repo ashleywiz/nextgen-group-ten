@@ -33,7 +33,7 @@ const HeroSection = () => {
               <span className="text-black"> side.</span>
             </p>
             
-            <p className="text-lg md:text-xl text-primary-foreground/90 mb-4 max-w-xl">
+            <p className="text-lg md:text-xl text-primary-foreground/90 mb-4 max-w-xl text-justify">
               We are Goa's first and longest-running e-waste dismantling centre, registered with GSPCB and GWMC. We collect and dismantle e-waste, dry waste (including metal and plastic scrap) and demolition waste from homes and businesses across Goa. We believe waste is a resource, and every device, cable and waste material, can return to the circular economy when it is given for responsible recycling instead of being discarded. For over 15 years, our team has been redefining Goa's e-waste ecosystem through ethical dismantling, efficient disposal, and community engagement.
             </p>
             
