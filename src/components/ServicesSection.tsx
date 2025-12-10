@@ -52,41 +52,48 @@ const ServicesSection = () => {
           </p>
         </div>
 
-        {/* Why Choose Us */}
+        {/* Why Choose Group Tenplus */}
         <div className="bg-card rounded-2xl p-8 eco-shadow-md border border-border mb-10">
-          <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
-            Why Choose Us
-          </h3>
-          <ul className="space-y-3">
-            <li className="flex items-center gap-3 text-muted-foreground">
-              <div className="w-2 h-2 rounded-full bg-primary" />
-              GSPCB & GWMC registered
-            </li>
-            <li className="flex items-center gap-3 text-muted-foreground">
-              <div className="w-2 h-2 rounded-full bg-primary" />
-              Goa's first e-waste dismantling centre
-            </li>
-            <li className="flex items-center gap-3 text-muted-foreground">
-              <div className="w-2 h-2 rounded-full bg-primary" />
-              Closed-body trucks for safe transport
-            </li>
-            <li className="flex items-center gap-3 text-muted-foreground">
-              <div className="w-2 h-2 rounded-full bg-primary" />
-              Complete data destruction before recycling
-            </li>
-            <li className="flex items-center gap-3 text-muted-foreground">
-              <div className="w-2 h-2 rounded-full bg-primary" />
-              Zero resale of electronics
-            </li>
-            <li className="flex items-center gap-3 text-muted-foreground">
-              <div className="w-2 h-2 rounded-full bg-primary" />
-              Ethical disposal of waste materials
-            </li>
-            <li className="flex items-center gap-3 text-muted-foreground">
-              <div className="w-2 h-2 rounded-full bg-primary" />
-              Zero burning
-            </li>
-          </ul>
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+            Why Choose Group Tenplus
+          </h2>
+          <div className="grid md:grid-cols-2 gap-x-8 gap-y-3 mb-6">
+            <div className="flex items-center gap-3 text-muted-foreground">
+              <div className="w-2 h-2 rounded-full bg-primary flex-shrink-0" />
+              GSPCB (Goa State Pollution Control Board) registered
+            </div>
+            <div className="flex items-center gap-3 text-muted-foreground">
+              <div className="w-2 h-2 rounded-full bg-primary flex-shrink-0" />
+              GWMC (Goa Waste Management Corporation) registered
+            </div>
+            <div className="flex items-center gap-3 text-muted-foreground">
+              <div className="w-2 h-2 rounded-full bg-primary flex-shrink-0" />
+              Goa's first and longest-running e-waste dismantling centre
+            </div>
+            <div className="flex items-center gap-3 text-muted-foreground">
+              <div className="w-2 h-2 rounded-full bg-primary flex-shrink-0" />
+              Closed-body trucks for safe, sealed transport
+            </div>
+            <div className="flex items-center gap-3 text-muted-foreground">
+              <div className="w-2 h-2 rounded-full bg-primary flex-shrink-0" />
+              Complete data destruction for storage devices
+            </div>
+            <div className="flex items-center gap-3 text-muted-foreground">
+              <div className="w-2 h-2 rounded-full bg-primary flex-shrink-0" />
+              No resale of any recycled electronics
+            </div>
+            <div className="flex items-center gap-3 text-muted-foreground">
+              <div className="w-2 h-2 rounded-full bg-primary flex-shrink-0" />
+              Zero landfill approach, end-to-end dismantling and recycling
+            </div>
+            <div className="flex items-center gap-3 text-muted-foreground">
+              <div className="w-2 h-2 rounded-full bg-primary flex-shrink-0" />
+              Ethical disposal of waste materials with no burning
+            </div>
+          </div>
+          <p className="text-center text-muted-foreground text-sm max-w-2xl mx-auto">
+            We follow strict safety and environmental practices, protecting your data and the environment. Every device, cable and material is processed responsibly and returned to the circular economy where possible.
+          </p>
         </div>
 
         {/* Featured E-Waste Service */}
