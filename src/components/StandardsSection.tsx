@@ -62,16 +62,31 @@ const StandardsSection = () => {
           ))}
         </div>
 
-        {/* Commitments */}
-        <div className="bg-card rounded-2xl p-8 eco-shadow-md border border-border max-w-3xl mx-auto">
-          <h3 className="text-xl font-bold text-foreground mb-6 text-center">Our Commitments</h3>
-          <div className="grid sm:grid-cols-2 gap-4">
-            {commitments.map((commitment, index) => (
-              <div key={index} className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
-                <span className="text-muted-foreground text-sm">{commitment}</span>
-              </div>
-            ))}
+        {/* Commitments + Team in Operation */}
+        <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto items-stretch">
+          <div className="bg-card rounded-2xl p-8 eco-shadow-md border border-border">
+            <h3 className="text-xl font-bold text-foreground mb-6 text-center">Our Commitments</h3>
+            <div className="grid gap-4">
+              {commitments.map((commitment, index) => (
+                <div key={index} className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span className="text-muted-foreground text-sm">{commitment}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="rounded-2xl overflow-hidden eco-shadow-md border border-border relative min-h-[320px]">
+            <img
+              src={teamToolsAsset.url}
+              alt="Group Tenplus team with dismantling tools inside the Goa warehouse"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+              <p className="text-primary-foreground text-sm font-medium">
+                Our team in operation — safe dismantling with proper PPE and tools.
+              </p>
+            </div>
           </div>
         </div>
       </div>
