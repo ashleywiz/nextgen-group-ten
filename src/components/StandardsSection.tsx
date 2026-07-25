@@ -1,4 +1,5 @@
 import { Shield, Award, Users, CheckCircle } from "lucide-react";
+import teamToolsAsset from "@/assets/team-tools.png.asset.json";
 
 const StandardsSection = () => {
   const standards = [
