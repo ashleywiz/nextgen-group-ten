@@ -73,18 +73,15 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Hero Image Placeholder */}
+          {/* Hero Image */}
           <div className="hidden lg:flex justify-center animate-scale-in stagger-2">
             <div className="relative">
-              <div className="w-[400px] h-[400px] rounded-3xl bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 flex items-center justify-center p-8 animate-float">
-                <div className="text-center text-primary-foreground/70">
-                  <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-primary-foreground/10 flex items-center justify-center">
-                    <Leaf className="w-16 h-16" />
-                  </div>
-                  <p className="text-sm font-medium">
-                    [Hero Image: E-waste recycling team in Goa sorting electronics, green environment, professional workers with safety gear]
-                  </p>
-                </div>
+              <div className="w-[460px] h-[460px] rounded-3xl overflow-hidden border border-primary-foreground/20 eco-shadow-lg animate-float">
+                <img
+                  src={teamVanAsset.url}
+                  alt="Group Tenplus team with their e-waste collection van in Goa"
+                  className="w-full h-full object-cover"
+                />
               </div>
               {/* Floating Badge */}
               <div className="absolute -bottom-4 -left-4 bg-card text-foreground px-4 py-3 rounded-xl shadow-lg">
