@@ -78,7 +78,7 @@ const HeroSection = () => {
             <div className="relative">
               <div className="w-[460px] h-[460px] rounded-3xl overflow-hidden border border-primary-foreground/20 eco-shadow-lg animate-float">
                 <img
-                  src={teamVanAsset.url}
+                  src={teamVanAsset}
                   alt="Group Tenplus team with their e-waste collection van in Goa"
                   className="w-full h-full object-cover"
                 />

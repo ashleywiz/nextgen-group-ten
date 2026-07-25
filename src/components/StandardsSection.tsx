@@ -1,5 +1,5 @@
 import { Shield, Award, Users, CheckCircle } from "lucide-react";
-import teamToolsAsset from "@/assets/team-tools.png.asset.json";
+import teamToolsAsset from "@/assets/team-tools.png";
 
 const StandardsSection = () => {
   const standards = [
@@ -78,7 +78,7 @@ const StandardsSection = () => {
 
           <div className="rounded-2xl overflow-hidden eco-shadow-md border border-border relative min-h-[320px]">
             <img
-              src={teamToolsAsset.url}
+              src={teamToolsAsset}
               alt="Group Tenplus team with dismantling tools inside the Goa warehouse"
               className="absolute inset-0 w-full h-full object-cover"
             />
