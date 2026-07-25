@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Phone, Mail, CheckCircle, Leaf } from "lucide-react";
-import teamVanAsset from "@/assets/team-van.png.asset.json";
+import teamVanAsset from "@/assets/team-van.png";
 const HeroSection = () => {
   const highlights = ["First e-waste dismantling centre in Goa", "Operating since 2010", "GSPCB & GWMC registered", "Zero landfill policy for e-waste"];
   return <section id="hero" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
@@ -78,7 +78,7 @@ const HeroSection = () => {
             <div className="relative">
               <div className="w-[460px] h-[460px] rounded-3xl overflow-hidden border border-primary-foreground/20 eco-shadow-lg animate-float">
                 <img
-                  src={teamVanAsset.url}
+                  src={teamVanAsset}
                   alt="Group Tenplus team with their e-waste collection van in Goa"
                   className="w-full h-full object-cover"
                 />
