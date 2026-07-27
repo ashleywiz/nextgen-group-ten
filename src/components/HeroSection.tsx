@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Phone, Mail, CheckCircle, Leaf } from "lucide-react";
+import { MessageCircle, Phone, Mail, CheckCircle, Leaf, Truck } from "lucide-react";
 import teamVanAsset from "@/assets/team-van.png";
 const HeroSection = () => {
   const highlights = ["First e-waste dismantling centre in Goa", "Operating since 2010", "GSPCB & GWMC registered", "Zero landfill policy for e-waste"];
@@ -43,7 +43,13 @@ const HeroSection = () => {
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 mb-10">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-4 mb-10">
+              <a href="#how-it-works">
+                <Button variant="default" size="xl" className="w-full sm:w-auto">
+                  <Truck className="w-5 h-5" />
+                  Request a Pickup
+                </Button>
+              </a>
               <a href="https://wa.me/917972949655" target="_blank" rel="noopener noreferrer">
                 <Button variant="whatsapp" size="xl" className="w-full sm:w-auto">
                   <MessageCircle className="w-5 h-5" />
