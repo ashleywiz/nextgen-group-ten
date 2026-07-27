@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Phone, MessageCircle } from "lucide-react";
+import { Menu, X, Phone, MessageCircle, Truck } from "lucide-react";
 import gtpLogo from "@/assets/gtplogo.jpg";
 
 const Header = () => {
@@ -48,6 +48,12 @@ const Header = () => {
                 <span className="hidden xl:inline">+91 98231 18321</span>
               </Button>
             </a>
+            <a href="#how-it-works">
+              <Button variant="default" size="sm">
+                <Truck className="w-4 h-4" />
+                Request a Pickup
+              </Button>
+            </a>
             <a
               href="https://wa.me/917972949655"
               target="_blank"
@@ -88,12 +94,20 @@ const Header = () => {
                   {link.name}
                 </a>
               ))}
-              <div className="flex gap-2 mt-2 px-4">
+              <div className="flex flex-col gap-2 mt-2 px-4">
+                <a
+                  href="#how-it-works"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  <Button variant="default" size="sm" className="w-full">
+                    <Truck className="w-4 h-4" />
+                    Request a Pickup
+                  </Button>
+                </a>
                 <a
                   href="https://wa.me/917972949655"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1"
                 >
                   <Button variant="whatsapp" size="sm" className="w-full">
                     <MessageCircle className="w-4 h-4" />
